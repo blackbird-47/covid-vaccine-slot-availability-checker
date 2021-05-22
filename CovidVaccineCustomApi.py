@@ -7,8 +7,8 @@ import os
 import ast
 
 
-_global_state_id = None
-_global_district_id = None
+_global_state_id = 16
+_global_district_id = 294
 _global_age = 18
 _global_dose_number = 1
 
