@@ -9,8 +9,8 @@ import ast
 
 _global_state_id = None
 _global_district_id = None
-_global_age = None
-_global_dose_number = None
+_global_age = 18
+_global_dose_number = 1
 
 COWIN_HOST = "https://cdn-api.co-vin.in/api"
 INVALID_REQUEST_TEMPLATE = "Invalid {key} provided. {key} should be in lowercase and should not contain whitespaces."
