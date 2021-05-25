@@ -9,10 +9,21 @@ Built on Python(3.8) Flask framework.
 
 #### Running on Local
 1. Clone the repository to your local.
-2. Change the working directory to ```vaccine-slot-availability-checker```
+```bash
+git clone https://github.com/blackbird-47/covid-vaccine-slot-availability-checker.git
+```
+2. Change the working directory to ```vaccine-slot-availability-checker```.
+```bash
+cd vaccine-slot-availability-checker
+```
 3. Use ```pip``` to install necessary packages through requirements.txt. Packages that will be installed - ```flask```, ```flask_apscheduler```, ```requests```
-4. Run the script - ```python CovidVaccineCustomApi.py```
-
+```bash
+pip3 install -r requirements.txt 
+```
+4. Run the script.
+```bash
+python3 CovidVaccineCustomApi.py
+```
 
 #### Notes
 1. On application startup, default behaviour of the app is to fetch KA-BBMP slots for 18 age and 1st dose. This can be updated an API that the application has exposed - ```PUT http://127.0.0.1:5000/v1/vaccine-availability?state=karnataka&district=bbmp&dose=1&age=25```
