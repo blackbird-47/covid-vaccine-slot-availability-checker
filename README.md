@@ -26,7 +26,7 @@ python3 CovidVaccineCustomApi.py
 ```
 
 #### Notes
-1. On application startup, default behaviour of the app is to fetch KA-BBMP slots for 18 age and 1st dose. This can be updated an API that the application has exposed - ```PUT http://127.0.0.1:5000/v1/vaccination-parameters?state=karnataka&district=bbmp&dose=1&age=25```
+1. On application startup, default behaviour of the app is to fetch KA-BBMP slots for 18 age and 1st dose. This can be updated by an API that the application has exposed - ```PUT http://127.0.0.1:5000/v1/vaccination-parameters?state=karnataka&district=bbmp&dose=1&age=25```
 2. The app calls cowin appointment endpoint every 5 seconds (configurable).
 3. When a slot is available, an output will be printed in the stdout stream. A voice message will also start to alert the user.
 4. This application was developed and tested on MacOS 10.15. It should work on Linux distros except for the text-to-speech command which will need to be updated.
