@@ -20,7 +20,7 @@ RESPONSE_TEMPLATE = "Successfully updated parameters: " \
 app = flask.Flask(__name__)
 
 
-@app.route('/v1/vaccine-availability', methods=['PUT'])
+@app.route('/v1/vaccination-parameters', methods=['PUT'])
 def get_vaccine_availability():
     ref_state = request.args.get('state')
     ref_district = request.args.get('district')
