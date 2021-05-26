@@ -12,9 +12,9 @@ Built on Python(3.8) Flask framework.
 ```bash
 git clone https://github.com/blackbird-47/covid-vaccine-slot-availability-checker.git
 ```
-2. Change the working directory to ```vaccine-slot-availability-checker```.
+2. Change the working directory to ```covid-vaccine-slot-availability-checker```.
 ```bash
-cd vaccine-slot-availability-checker
+cd covid-vaccine-slot-availability-checker
 ```
 3. Use ```pip``` to install necessary packages through requirements.txt. Packages that will be installed - ```flask```, ```flask_apscheduler```, ```requests```
 ```bash
