@@ -1,5 +1,5 @@
 # COVID-19 Vaccine Slot Availability Checker
-[![CodeFactor](https://www.codefactor.io/repository/github/blackbird-47/covid-vaccine-slot-availability-checker/badge)](https://www.codefactor.io/repository/github/blackbird-47/covid-vaccine-slot-availability-checker)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/776d93aad63b4cf0b3da6adb9fc45cff)](https://www.codacy.com/gh/blackbird-47/covid-vaccine-slot-availability-checker/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=blackbird-47/covid-vaccine-slot-availability-checker&amp;utm_campaign=Badge_Grade)
+[![CodeFactor](https://www.codefactor.io/repository/github/blackbird-47/covid-vaccine-slot-availability-checker/badge)](https://www.codefactor.io/repository/github/blackbird-47/covid-vaccine-slot-availability-checker) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/776d93aad63b4cf0b3da6adb9fc45cff)](https://www.codacy.com/gh/blackbird-47/covid-vaccine-slot-availability-checker/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=blackbird-47/covid-vaccine-slot-availability-checker&amp;utm_campaign=Badge_Grade)
 
 ### Regularly checks on vaccine availability via CoWin public APIs
 
