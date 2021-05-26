@@ -1,4 +1,6 @@
 # COVID-19 Vaccine Slot Availability Checker
+[![CodeFactor](https://www.codefactor.io/repository/github/blackbird-47/covid-vaccine-slot-availability-checker/badge)](https://www.codefactor.io/repository/github/blackbird-47/covid-vaccine-slot-availability-checker)
+
 ### Regularly checks on vaccine availability via CoWin public APIs
 
 Built on Python(3.8) Flask framework.
